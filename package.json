@@ -1,0 +1,34 @@
+{
+  "name": "react-grey-components",
+  "version": "0.0.1",
+  "description": "A set of Grey Components to be used on your own project",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "webpack": "^2.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Luis Felipe Corrêa Pérez",
+    "email": "xilenomg@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0"
+  }
+}

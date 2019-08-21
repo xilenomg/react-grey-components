@@ -1,0 +1,14 @@
+@import "../../global/main.scss";
+
+.btn-tertiary {
+  border: 1px solid var(--quaternary-color);
+  background: var(--tertiary-color);
+  color: var(--quaternary-color);
+  transition: all $ease 0.5s;
+
+  &:hover {
+    border: 1px solid var(--quaternary-color);
+    background: var(--quaternary-color);
+    color: var(--tertiary-color);
+  }
+}

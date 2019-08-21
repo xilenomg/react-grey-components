@@ -1,0 +1,14 @@
+@import "../../global/main.scss";
+
+.btn-primary {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all $ease 0.5s;
+
+  &:hover {
+    border: 1px solid var(--primary-color);
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  }
+}
